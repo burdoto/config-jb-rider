@@ -1,10 +1,6 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
-    <keyboard-shortcut first-keystroke="alt less" />
-  </action>
-  <action id="ShowUsages">
-    <keyboard-shortcut first-keystroke="ctrl alt f7" />
-    <keyboard-shortcut first-keystroke="ctrl alt less" />
+    <mouse-shortcut keystroke="control button1" />
   </action>
 </keymap>
