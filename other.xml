@@ -1,0 +1,29 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>unused</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:A:/IntelliJ Workspace/CrystalShard/CodeStyleSettings.xml" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+</application>
