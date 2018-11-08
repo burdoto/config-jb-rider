@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="utildelegate" type="PLAIN_TEXT" />
       <mapping ext="coredelegate" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
