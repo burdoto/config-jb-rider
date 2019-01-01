@@ -18,6 +18,8 @@
         <emptyLine />
         <package name="" withSubpackages="true" static="false" />
         <emptyLine />
+        <package name="java" withSubpackages="true" static="true" />
+        <package name="de.kaleidox" withSubpackages="true" static="true" />
         <package name="" withSubpackages="true" static="true" />
       </value>
     </option>
