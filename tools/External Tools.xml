@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Register Assembly" description="Runs the registering script" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="A:\Workspaces\VBANDeck\src\batch\registerAsm.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="A:/Workspaces/VBANDeck/src/batch" />
+    </exec>
+  </tool>
+</toolSet>
