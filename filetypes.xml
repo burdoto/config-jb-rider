@@ -4,6 +4,7 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="version" type="PLAIN_TEXT" />
       <mapping pattern="resources/version" type="PLAIN_TEXT" />
+      <mapping ext="def" type="PLAIN_TEXT" />
       <mapping ext="quscr" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
     </extensionMap>
