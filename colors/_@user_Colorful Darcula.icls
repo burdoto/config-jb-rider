@@ -3,10 +3,15 @@
     <property name="created">2018-11-30T12:59:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.0.0</property>
-    <property name="modified">2019-01-07T18:18:38</property>
+    <property name="modified">2019-01-12T14:24:36</property>
     <property name="originalScheme">Colorful Darcula</property>
   </metaInfo>
   <attributes>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="b4bb11" />
+      </value>
+    </option>
     <option name="GO_EXPORTED_FUNCTION">
       <value>
         <option name="FOREGROUND" value="ffe37b" />
