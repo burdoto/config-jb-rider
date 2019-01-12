@@ -29,8 +29,6 @@
         <emptyLine />
         <package name="" withSubpackages="true" static="false" />
         <emptyLine />
-        <package name="java" withSubpackages="true" static="true" />
-        <package name="de.kaleidox" withSubpackages="true" static="true" />
         <package name="" withSubpackages="true" static="true" />
         <emptyLine />
       </value>
@@ -67,7 +65,6 @@
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   </XML>
   <codeStyleSettings language="JAVA">
-    <option name="ENUM_CONSTANTS_WRAP" value="2" />
     <arrangement>
       <groups>
         <group>
