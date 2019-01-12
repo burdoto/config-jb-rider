@@ -3,6 +3,7 @@
     <option name="USE_CUSTOM_SETTINGS" value="true" />
   </AndroidXmlCodeStyleSettings>
   <JavaCodeStyleSettings>
+    <option name="USE_EXTERNAL_ANNOTATIONS" value="true" />
     <option name="REPLACE_INSTANCEOF" value="true" />
     <option name="REPLACE_CAST" value="true" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
@@ -23,8 +24,12 @@
         <package name="" withSubpackages="true" static="true" />
       </value>
     </option>
+    <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
+    <option name="JD_KEEP_INVALID_TAGS" value="false" />
+    <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
   </JavaCodeStyleSettings>
   <codeStyleSettings language="JAVA">
+    <option name="WRAP_COMMENTS" value="true" />
     <option name="ENUM_CONSTANTS_WRAP" value="2" />
     <arrangement>
       <groups>
