@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\Vban'" />
-    <option name="defaultScopeName" value="Directory '...\Vban'" />
+    <option name="customScope" value="File '...\Vban\Model\Abstract\AbstractStreamWriter.cs'" />
+    <option name="defaultScopeName" value="File '...\Vban\Model\Abstract\AbstractStreamWriter.cs'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\Vban'" />
+    <option name="SEARCH_SCOPE" value="File '...\Vban\Model\Abstract\AbstractStreamWriter.cs'" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
