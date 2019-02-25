@@ -8,6 +8,8 @@
       <mapping ext="def" type="PLAIN_TEXT" />
       <mapping ext="quscr" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
+      <mapping ext="classdefinitionprovider" type="PLAIN_TEXT" />
+      <mapping ext="butts" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
