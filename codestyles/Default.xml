@@ -280,7 +280,10 @@
         <section>
           <rule>
             <match>
-              <METHOD>true</METHOD>
+              <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
             </match>
           </rule>
         </section>
@@ -289,6 +292,37 @@
             <match>
               <AND>
                 <METHOD>true</METHOD>
+                <PROTECTED>true</PROTECTED>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PRIVATE>true</PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
                 <STATIC>true</STATIC>
               </AND>
             </match>
@@ -297,7 +331,11 @@
         <section>
           <rule>
             <match>
-              <ENUM>true</ENUM>
+              <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>false</PUBLIC>
+                <STATIC>true</STATIC>
+              </AND>
             </match>
           </rule>
         </section>
@@ -311,7 +349,27 @@
         <section>
           <rule>
             <match>
-              <CLASS>true</CLASS>
+              <AND>
+                <CLASS>true</CLASS>
+                <FINAL>false</FINAL>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CLASS>true</CLASS>
+                <FINAL>true</FINAL>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <ENUM>true</ENUM>
             </match>
           </rule>
         </section>
