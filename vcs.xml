@@ -26,8 +26,16 @@
           <option name="url" value="https://github.com/WesJD/AnvilGUI" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:spotify/web-api-auth-examples.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/spotify/web-api-auth-examples" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Kaleidox\Workspaces" />
+    <option name="cloneParentDir" value="A:\Workspaces" />
   </component>
 </application>
