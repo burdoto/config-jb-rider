@@ -34,6 +34,10 @@
           <option name="url" value="https://github.com/spotify/web-api-auth-examples" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/aurasphere/jyandex" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="A:\Workspaces" />
