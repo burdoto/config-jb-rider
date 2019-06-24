@@ -27,8 +27,7 @@
     </option>
   </GroovyCodeStyleSettings>
   <JavaCodeStyleSettings>
-    <option name="REPLACE_INSTANCEOF" value="true" />
-    <option name="REPLACE_CAST" value="true" />
+    <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
     <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
     <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
@@ -88,6 +87,9 @@
   <codeStyleSettings language="JAVA">
     <option name="RIGHT_MARGIN" value="120" />
     <option name="WRAP_COMMENTS" value="true" />
+    <option name="METHOD_ANNOTATION_WRAP" value="1" />
+    <option name="CLASS_ANNOTATION_WRAP" value="1" />
+    <option name="FIELD_ANNOTATION_WRAP" value="0" />
     <option name="ENUM_CONSTANTS_WRAP" value="2" />
     <option name="WRAP_ON_TYPING" value="0" />
     <arrangement>
