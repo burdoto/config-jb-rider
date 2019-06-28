@@ -53,6 +53,9 @@
     <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
     <option name="JD_KEEP_INVALID_TAGS" value="false" />
     <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
+    <REPEAT_ANNOTATIONS>
+      <ANNO name="org.jetbrains.annotations.Contract" />
+    </REPEAT_ANNOTATIONS>
   </JavaCodeStyleSettings>
   <Objective-C-extensions>
     <file>
