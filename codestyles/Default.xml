@@ -87,6 +87,23 @@
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   </XML>
+  <codeStyleSettings language="CoffeeScript">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Gherkin">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Haml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="RIGHT_MARGIN" value="120" />
     <option name="WRAP_COMMENTS" value="true" />
@@ -423,6 +440,11 @@
       </rules>
     </arrangement>
   </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="XML">
     <option name="FORCE_REARRANGE_MODE" value="1" />
     <indentOptions>
@@ -525,5 +547,10 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="yaml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
