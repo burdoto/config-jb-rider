@@ -27,39 +27,35 @@
     </option>
   </GroovyCodeStyleSettings>
   <JavaCodeStyleSettings>
-    <option name="REPLACE_INSTANCEOF" value="true" />
-    <option name="REPLACE_CAST" value="true" />
-    <option name="CLASS_NAMES_IN_JAVADOC" value="2" />
-    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
-    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
+    <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
+    <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
+    <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
     <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
       <value />
     </option>
     <option name="IMPORT_LAYOUT_TABLE">
       <value>
-        <package name="android" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="com" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="junit" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="net" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="org" withSubpackages="true" static="false" />
-        <emptyLine />
         <package name="java" withSubpackages="true" static="false" />
-        <emptyLine />
         <package name="javax" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="de.kaleidox" withSubpackages="true" static="false" />
         <emptyLine />
         <package name="" withSubpackages="true" static="false" />
         <emptyLine />
+        <package name="java" withSubpackages="true" static="true" />
+        <package name="javax" withSubpackages="true" static="true" />
+        <package name="de.kaleidox" withSubpackages="true" static="true" />
         <package name="" withSubpackages="true" static="true" />
-        <emptyLine />
       </value>
     </option>
     <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
     <option name="JD_KEEP_INVALID_TAGS" value="false" />
     <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
+    <REPEAT_ANNOTATIONS>
+      <ANNO name="org.jetbrains.annotations.Contract" />
+    </REPEAT_ANNOTATIONS>
   </JavaCodeStyleSettings>
   <Objective-C-extensions>
     <file>
@@ -91,9 +87,29 @@
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   </XML>
+  <codeStyleSettings language="CoffeeScript">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Gherkin">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Haml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="RIGHT_MARGIN" value="120" />
     <option name="WRAP_COMMENTS" value="true" />
+    <option name="METHOD_ANNOTATION_WRAP" value="1" />
+    <option name="CLASS_ANNOTATION_WRAP" value="1" />
+    <option name="FIELD_ANNOTATION_WRAP" value="0" />
     <option name="ENUM_CONSTANTS_WRAP" value="2" />
     <option name="WRAP_ON_TYPING" value="0" />
     <arrangement>
@@ -424,6 +440,11 @@
       </rules>
     </arrangement>
   </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="XML">
     <option name="FORCE_REARRANGE_MODE" value="1" />
     <indentOptions>
@@ -511,7 +532,6 @@
                 <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
               </AND>
             </match>
-            <order>ANDROID_ATTRIBUTE_ORDER</order>
           </rule>
         </section>
         <section>
@@ -527,5 +547,10 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="yaml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>

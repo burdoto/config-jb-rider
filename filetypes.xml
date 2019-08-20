@@ -1,15 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="version" type="PLAIN_TEXT" />
-      <mapping pattern="resources/version" type="PLAIN_TEXT" />
-      <mapping ext="def" type="PLAIN_TEXT" />
-      <mapping ext="quscr" type="PLAIN_TEXT" />
+      <mapping pattern="notes" type="PLAIN_TEXT" />
+      <mapping ext="injector" type="PLAIN_TEXT" />
+      <mapping ext="regex" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
-      <mapping ext="classdefinitionprovider" type="PLAIN_TEXT" />
-      <mapping ext="butts" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
