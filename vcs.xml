@@ -14,8 +14,12 @@
           <option name="url" value="https://github.com/burdoto/javacord-utilities.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\auauh\Tobi Workspaces" />
+    <option name="cloneParentDir" value="A:\Workspaces" />
   </component>
 </application>
