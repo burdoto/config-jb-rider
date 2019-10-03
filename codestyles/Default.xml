@@ -105,7 +105,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
-    <option name="RIGHT_MARGIN" value="120" />
+    <option name="RIGHT_MARGIN" value="180" />
     <option name="WRAP_COMMENTS" value="true" />
     <option name="METHOD_ANNOTATION_WRAP" value="1" />
     <option name="CLASS_ANNOTATION_WRAP" value="1" />
