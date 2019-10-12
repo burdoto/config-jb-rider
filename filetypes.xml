@@ -4,7 +4,9 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="notes" type="PLAIN_TEXT" />
+      <mapping pattern="server-impl/src/main/java/de/schwands/kamille/impl/impl" type="PLAIN_TEXT" />
       <mapping pattern="native/src/main/cpp" type="PLAIN_TEXT" />
+      <mapping pattern="server-api/main/java/de/schwands/kamille/api" type="PLAIN_TEXT" />
       <mapping ext="injector" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="regex" type="PLAIN_TEXT" />
