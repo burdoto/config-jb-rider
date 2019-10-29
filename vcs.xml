@@ -18,8 +18,12 @@
           <option name="url" value="https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/burdoto/BotThatShowsChat.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="A:\Workspaces" />
+    <option name="cloneParentDir" value="A:\Tobi\Workspaces" />
   </component>
 </application>
