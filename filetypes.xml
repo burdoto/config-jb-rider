@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="core/src/main/java/de/comroid/parserract/ab" type="PLAIN_TEXT" />
       <mapping ext="regex" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
     </extensionMap>
