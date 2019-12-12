@@ -2,4 +2,15 @@
   <component name="ApplicationNotificationSettings">
     <option name="lastUpdateNotification" value="1.1.0" />
   </component>
+  <component name="DiscordApplicationSettings">
+    <option name="timeoutResetTimeEnabled" value="false" />
+    <option name="fileDetails" value="PROJECT_NAME" />
+    <option name="fileState" value="FILE_NAME" />
+    <option name="fileIconLarge" value="APPLICATION" />
+    <option name="fileIconLargeText" value="APPLICATION_VERSION" />
+    <option name="fileIconSmall" value="FILE" />
+    <option name="fileIconSmallText" value="FILE_LANGUAGE" />
+    <option name="filePrefixEnabled" value="false" />
+    <option name="newProjectShow" value="SHOW" />
+  </component>
 </application>

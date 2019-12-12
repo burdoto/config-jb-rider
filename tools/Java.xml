@@ -1,9 +1,0 @@
-<toolSet name="Java">
-  <tool name="javah" description="Java Native Interface C Header and Stub File Generator" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$JDKPath$\bin\javah.exe" />
-      <option name="PARAMETERS" value="-jni -v -d $FileDir$ $FileClass$" />
-      <option name="WORKING_DIRECTORY" value="$SourcepathEntry$" />
-    </exec>
-  </tool>
-</toolSet>
