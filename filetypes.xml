@@ -1,23 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="server-api/main/java/de/schwands/kamille/api" type="PLAIN_TEXT" />
-      <mapping pattern="test/java/io/codebottle/api/test/a" type="PLAIN_TEXT" />
-      <mapping pattern="notes" type="PLAIN_TEXT" />
-      <mapping pattern="server-impl/src/main/java/de/schwands/kamille/impl/impl" type="PLAIN_TEXT" />
-      <mapping pattern="native/src/main/cpp" type="PLAIN_TEXT" />
-      <mapping ext="injector" type="PLAIN_TEXT" />
+      <mapping pattern="json/src/main/java/de/comroid/parserract/json/a" type="PLAIN_TEXT" />
+      <mapping pattern="trie/src/main/java/de/comroid/common/trie/root" type="PLAIN_TEXT" />
+      <mapping pattern="core/src/main/java/de/comroid/parserract/ab" type="PLAIN_TEXT" />
+      <mapping pattern="proxerface/src/main/java/de/comroid/common/proxerface/ro" type="PLAIN_TEXT" />
       <mapping ext="regex" type="PLAIN_TEXT" />
-      <mapping ext="coreadapter" type="PLAIN_TEXT" />
-      <mapping ext="dat" type="PLAIN_TEXT" />
-      <mapping ext="impladapter" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
