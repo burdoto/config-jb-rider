@@ -1,10 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="proxerface/src/main/java/de/comroid/common/proxerface/ro" type="PLAIN_TEXT" />
       <mapping pattern="json/src/main/java/de/comroid/parserract/json/a" type="PLAIN_TEXT" />
       <mapping pattern="trie/src/main/java/de/comroid/common/trie/root" type="PLAIN_TEXT" />
       <mapping pattern="core/src/main/java/de/comroid/parserract/ab" type="PLAIN_TEXT" />
-      <mapping pattern="proxerface/src/main/java/de/comroid/common/proxerface/ro" type="PLAIN_TEXT" />
       <mapping ext="regex" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
     </extensionMap>
