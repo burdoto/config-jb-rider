@@ -40,6 +40,7 @@
         <package name="java" withSubpackages="true" static="false" />
         <package name="javax" withSubpackages="true" static="false" />
         <emptyLine />
+        <package name="org.comroid" withSubpackages="true" static="false" />
         <package name="de.comroid" withSubpackages="true" static="false" />
         <package name="de.kaleidox" withSubpackages="true" static="false" />
         <emptyLine />
@@ -47,6 +48,7 @@
         <emptyLine />
         <package name="java" withSubpackages="true" static="true" />
         <package name="javax" withSubpackages="true" static="true" />
+        <package name="org.comroid" withSubpackages="true" static="true" />
         <package name="de.comroid" withSubpackages="true" static="true" />
         <package name="de.kaleidox" withSubpackages="true" static="true" />
         <package name="" withSubpackages="true" static="true" />
