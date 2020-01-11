@@ -463,6 +463,16 @@
             </match>
           </rule>
         </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CLASS>true</CLASS>
+                <PUBLIC>false</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
       </rules>
     </arrangement>
   </codeStyleSettings>
