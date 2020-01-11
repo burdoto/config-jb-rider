@@ -379,6 +379,28 @@
           <rule>
             <match>
               <AND>
+                <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
+                <PRIVATE>true</PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <METHOD>true</METHOD>
                 <PUBLIC>true</PUBLIC>
                 <STATIC>true</STATIC>
