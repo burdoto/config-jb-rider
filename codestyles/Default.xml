@@ -40,6 +40,7 @@
         <package name="java" withSubpackages="true" static="false" />
         <package name="javax" withSubpackages="true" static="false" />
         <emptyLine />
+        <package name="org.comroid" withSubpackages="true" static="false" />
         <package name="de.comroid" withSubpackages="true" static="false" />
         <package name="de.kaleidox" withSubpackages="true" static="false" />
         <emptyLine />
@@ -47,6 +48,7 @@
         <emptyLine />
         <package name="java" withSubpackages="true" static="true" />
         <package name="javax" withSubpackages="true" static="true" />
+        <package name="org.comroid" withSubpackages="true" static="true" />
         <package name="de.comroid" withSubpackages="true" static="true" />
         <package name="de.kaleidox" withSubpackages="true" static="true" />
         <package name="" withSubpackages="true" static="true" />
@@ -117,12 +119,12 @@
     <arrangement>
       <groups>
         <group>
-          <type>GETTERS_AND_SETTERS</type>
-          <order>KEEP</order>
+          <type>OVERRIDDEN_METHODS</type>
+          <order>BY_NAME</order>
         </group>
         <group>
-          <type>OVERRIDDEN_METHODS</type>
-          <order>KEEP</order>
+          <type>DEPENDENT_METHODS</type>
+          <order>BREADTH_FIRST</order>
         </group>
       </groups>
       <rules>
@@ -377,6 +379,28 @@
           <rule>
             <match>
               <AND>
+                <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
+                <PRIVATE>true</PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <METHOD>true</METHOD>
                 <PUBLIC>true</PUBLIC>
                 <STATIC>true</STATIC>
@@ -435,6 +459,16 @@
               <AND>
                 <CLASS>true</CLASS>
                 <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CLASS>true</CLASS>
+                <PUBLIC>false</PUBLIC>
               </AND>
             </match>
           </rule>
