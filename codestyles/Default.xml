@@ -120,11 +120,7 @@
       <groups>
         <group>
           <type>OVERRIDDEN_METHODS</type>
-          <order>BY_NAME</order>
-        </group>
-        <group>
-          <type>DEPENDENT_METHODS</type>
-          <order>BREADTH_FIRST</order>
+          <order>KEEP</order>
         </group>
       </groups>
       <rules>
