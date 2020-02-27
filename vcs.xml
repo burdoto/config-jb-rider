@@ -22,8 +22,12 @@
           <option name="url" value="https://github.com/burdoto/BotThatShowsChat.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/dwmkerr/sharpgl.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="A:\Tobi\Workspaces" />
+    <option name="cloneParentDir" value="D:\Workspaces" />
   </component>
 </application>
